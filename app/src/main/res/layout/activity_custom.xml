@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCustom">
+
+    <EditText
+        android:id="@+id/SektorEditText"
+        android:layout_width="405dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Çalıştığınız Sektörü Giriniz:"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/MeslekEditText"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Mesleğinizi Giriniz:"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SektorEditText" />
+
+    <EditText
+        android:id="@+id/UzmanlıkAlanıText"
+        android:layout_width="412dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Uzmanlık Alnınızı Giriniz:"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MeslekEditText" />
+
+    <Button
+        android:id="@+id/anketButton3"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="188dp"
+        android:text="Devam Ediniz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Ad Soyad :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
